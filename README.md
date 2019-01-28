@@ -11,5 +11,3 @@
 - bootstrap
 - underscore
 - jQuery
-- AJAX
-- DOM
