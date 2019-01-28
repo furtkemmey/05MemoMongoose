@@ -7,3 +7,7 @@
 - express
 - formidable
 - mongoose
+### JavaScript
+- jQuery
+- AJAX
+- DOM
