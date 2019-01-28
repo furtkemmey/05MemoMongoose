@@ -8,6 +8,8 @@
 - formidable
 - mongoose
 ### JavaScript
+- bootstrap
+- underscore
 - jQuery
 - AJAX
 - DOM
