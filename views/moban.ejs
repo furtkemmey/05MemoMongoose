@@ -1,0 +1,28 @@
+<!-- 模板 underscore-->
+
+<!-- 模板 導航列-->
+<script type="text/template" id="navMoban">
+    <li class="yemaanniu" data-page="{{= i }}"><a href="#">{{= i }}</a></li>
+</script>
+
+<!-- 模板 留言-->
+<!-- <script type="text/template" id="moban">
+    <div class="liuyankuai">
+        <p> <span class="glyphicon glyphicon-user"> {{= name }}  說:</span> </p>
+        <p> <h5> {{= message }} </h5> </p>
+        <p class="text-right"> <small> <em> {{= messageDate }} </em> </small> </p>    
+        <p class="text-right"><a href="/delMessage?id={{=id}}" class="shanchu"> <small> 删除 </small> </a></p>        
+    </div>
+</script>  -->
+
+<script type="text/template" id="moban">
+    <div class="card-header">
+        <span class="glyphicon glyphicon-user"> {{= name }}  說:</span>
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+            <p> {{= message }} </p>
+            <footer class="blockquote-footer"> <cite title="Source Title"> <a href="/delMessage?id={{=id}}" class="shanchu"> {{= messageDate }} </a> </cite></footer>            
+        </blockquote>     
+    </div>    
+</script>

@@ -1,0 +1,22 @@
+/* bootstrap */
+body,input,button,select,textarea{
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
+    font-size:150%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal; 
+}
+
+/* 自定義 */
+#chenggong,#shibia{
+    display: none;
+}
+.myH1{
+    text-align: center;
+}
+
+/* 模板的樣式css */
+.liuyankuai{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
